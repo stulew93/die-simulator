@@ -3,8 +3,8 @@ import random
 
 def die_face_generator(digit: int) -> str:
     """
-    Function to print out basic render of a die face, of value equal to digit. If digit is not an integer between 1
-    and 6, function will print a warning.
+    Function to create a basic render of a die face, of value equal to digit. If digit is not an integer between 1
+    and 6, function will return a warning.
     :param digit: Any integer.
     :return: str
     """
